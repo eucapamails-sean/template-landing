@@ -1,8 +1,9 @@
 'use client'
 
 import React, { useState } from 'react'
+import Link from 'next/link'
 
-const Header = () => {
+const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const toggleMenu = () => {
@@ -10,29 +11,29 @@ const Header = () => {
   }
 
   return (
-    <header className="bg-white shadow-md fixed w-full z-10">
+    <nav className="bg-white shadow-md fixed w-full z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <h1 className="text-xl font-bold text-blue-600">
+            <Link href="/" className="text-xl font-bold text-blue-600">
               Orlando Handyman Services
-            </h1>
+            </Link>
           </div>
           
           {/* Desktop menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#services" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <Link href="#services" className="text-gray-700 hover:text-blue-600 transition-colors">
               Services
-            </a>
-            <a href="#about" className="text-gray-700 hover:text-blue-600 transition-colors">
+            </Link>
+            <Link href="#about" className="text-gray-700 hover:text-blue-600 transition-colors">
               About
-            </a>
-            <a href="#testimonials" className="text-gray-700 hover:text-blue-600 transition-colors">
+            </Link>
+            <Link href="#testimonials" className="text-gray-700 hover:text-blue-600 transition-colors">
               Testimonials
-            </a>
-            <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors">
+            </Link>
+            <Link href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors">
               Contact
-            </a>
+            </Link>
             <a 
               href="tel:+14075550123" 
               className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
@@ -73,34 +74,34 @@ const Header = () => {
       {/* Mobile menu */}
       <div className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden`}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <a 
+          <Link 
             href="#services" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50"
             onClick={toggleMenu}
           >
             Services
-          </a>
-          <a 
+          </Link>
+          <Link 
             href="#about" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50"
             onClick={toggleMenu}
           >
             About
-          </a>
-          <a 
+          </Link>
+          <Link 
             href="#testimonials" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50"
             onClick={toggleMenu}
           >
             Testimonials
-          </a>
-          <a 
+          </Link>
+          <Link 
             href="#contact" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50"
             onClick={toggleMenu}
           >
             Contact
-          </a>
+          </Link>
           <a 
             href="tel:+14075550123" 
             className="block px-3 py-2 rounded-md text-base font-medium text-blue-600 hover:bg-blue-50"
@@ -109,8 +110,8 @@ const Header = () => {
           </a>
         </div>
       </div>
-    </header>
+    </nav>
   )
 }
 
-export default Header
+export default Navigation
