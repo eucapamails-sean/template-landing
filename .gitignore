@@ -1,1 +1,35 @@
+# Dependencies
+node_modules/
+.npm
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Testing
+coverage/
+.nyc_output/
+
+# Build Output
+.next/
+dist/
+out/
+
+# Cache files
+.cache/
+*.log
+
+# Environment variables
+.env*.local
+.env
+.vercel
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Git credentials (already here)
 .git-credentials
