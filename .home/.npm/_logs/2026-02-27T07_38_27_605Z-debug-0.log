@@ -1,0 +1,19 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.20.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/workspace/projects/template-landing/.npmrc
+5 silly config load:file:/workspace/projects/template-landing/.home/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm list tailwindcss
+8 verbose argv "list" "tailwindcss"
+9 verbose logfile logs-max:10 dir:/workspace/projects/template-landing/.home/.npm/_logs/2026-02-27T07_38_27_605Z-
+10 verbose logfile /workspace/projects/template-landing/.home/.npm/_logs/2026-02-27T07_38_27_605Z-debug-0.log
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile done cleaning log files
+13 verbose cwd /workspace/projects/template-landing
+14 verbose os Linux 6.12.12+bpo-cloud-amd64
+15 verbose node v20.20.0
+16 verbose npm  v10.8.2
+17 verbose exit 0
+18 info ok

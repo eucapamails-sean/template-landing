@@ -1,0 +1,227 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.20.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/workspace/projects/template-landing/.npmrc
+5 silly config load:file:/workspace/projects/template-landing/.home/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install tailwindcss@latest
+8 verbose argv "install" "--save-dev" "tailwindcss@latest"
+9 verbose logfile logs-max:10 dir:/workspace/projects/template-landing/.home/.npm/_logs/2026-02-27T07_38_26_191Z-
+10 verbose logfile /workspace/projects/template-landing/.home/.npm/_logs/2026-02-27T07_38_26_191Z-debug-0.log
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile done cleaning log files
+13 silly packumentCache corgi:https://registry.npmjs.org/tailwindcss cache-miss
+14 http fetch GET 200 https://registry.npmjs.org/tailwindcss 131ms (cache miss)
+15 silly packumentCache corgi:https://registry.npmjs.org/tailwindcss set size:undefined disposed:false
+16 silly idealTree buildDeps
+17 silly fetch manifest tailwindcss@4.2.1
+18 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/tailwindcss 22ms (cache hit)
+20 silly packumentCache full:https://registry.npmjs.org/tailwindcss set size:10227949 disposed:false
+21 silly placeDep ROOT tailwindcss@4.2.1 REPLACE for: template-landing@1.0.0 want: 4.2.1
+22 silly reify moves {}
+23 silly audit bulk request {
+23 silly audit   '@emnapi/runtime': [ '1.8.1' ],
+23 silly audit   '@img/colour': [ '1.0.0' ],
+23 silly audit   '@img/sharp-darwin-arm64': [ '0.34.5' ],
+23 silly audit   '@img/sharp-darwin-x64': [ '0.34.5' ],
+23 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.4' ],
+23 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.4' ],
+23 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.4' ],
+23 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.4' ],
+23 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.4' ],
+23 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.2.4' ],
+23 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.4' ],
+23 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.4' ],
+23 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.4' ],
+23 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.4' ],
+23 silly audit   '@img/sharp-linux-arm': [ '0.34.5' ],
+23 silly audit   '@img/sharp-linux-arm64': [ '0.34.5' ],
+23 silly audit   '@img/sharp-linux-ppc64': [ '0.34.5' ],
+23 silly audit   '@img/sharp-linux-riscv64': [ '0.34.5' ],
+23 silly audit   '@img/sharp-linux-s390x': [ '0.34.5' ],
+23 silly audit   '@img/sharp-linux-x64': [ '0.34.5' ],
+23 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.5' ],
+23 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.5' ],
+23 silly audit   '@img/sharp-wasm32': [ '0.34.5' ],
+23 silly audit   '@img/sharp-win32-arm64': [ '0.34.5' ],
+23 silly audit   '@img/sharp-win32-ia32': [ '0.34.5' ],
+23 silly audit   '@img/sharp-win32-x64': [ '0.34.5' ],
+23 silly audit   '@next/env': [ '16.1.6' ],
+23 silly audit   '@next/swc-darwin-arm64': [ '16.1.6' ],
+23 silly audit   '@next/swc-darwin-x64': [ '16.1.6' ],
+23 silly audit   '@next/swc-linux-arm64-gnu': [ '16.1.6' ],
+23 silly audit   '@next/swc-linux-arm64-musl': [ '16.1.6' ],
+23 silly audit   '@next/swc-linux-x64-gnu': [ '16.1.6' ],
+23 silly audit   '@next/swc-linux-x64-musl': [ '16.1.6' ],
+23 silly audit   '@next/swc-win32-arm64-msvc': [ '16.1.6' ],
+23 silly audit   '@next/swc-win32-x64-msvc': [ '16.1.6' ],
+23 silly audit   '@swc/helpers': [ '0.5.15' ],
+23 silly audit   autoprefixer: [ '10.4.27' ],
+23 silly audit   'baseline-browser-mapping': [ '2.10.0' ],
+23 silly audit   browserslist: [ '4.28.1' ],
+23 silly audit   'caniuse-lite': [ '1.0.30001774' ],
+23 silly audit   'client-only': [ '0.0.1' ],
+23 silly audit   'detect-libc': [ '2.1.2' ],
+23 silly audit   'electron-to-chromium': [ '1.5.302' ],
+23 silly audit   escalade: [ '3.2.0' ],
+23 silly audit   'fraction.js': [ '5.3.4' ],
+23 silly audit   nanoid: [ '3.3.11' ],
+23 silly audit   next: [ '16.1.6' ],
+23 silly audit   postcss: [ '8.4.31', '8.5.6' ],
+23 silly audit   'node-releases': [ '2.0.27' ],
+23 silly audit   picocolors: [ '1.1.1' ],
+23 silly audit   'postcss-value-parser': [ '4.2.0' ],
+23 silly audit   react: [ '19.2.4' ],
+23 silly audit   'react-dom': [ '19.2.4' ],
+23 silly audit   scheduler: [ '0.27.0' ],
+23 silly audit   semver: [ '7.7.4' ],
+23 silly audit   sharp: [ '0.34.5' ],
+23 silly audit   'source-map-js': [ '1.2.1' ],
+23 silly audit   'styled-jsx': [ '5.1.6' ],
+23 silly audit   tslib: [ '2.8.1' ],
+23 silly audit   'update-browserslist-db': [ '1.2.3' ],
+23 silly audit   tailwindcss: [ '4.2.1' ]
+23 silly audit }
+24 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@next/swc-win32-x64-msvc
+25 silly reify mark deleted [
+25 silly reify   '/workspace/projects/template-landing/node_modules/@next/swc-win32-x64-msvc'
+25 silly reify ]
+26 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@next/swc-win32-arm64-msvc
+27 silly reify mark deleted [
+27 silly reify   '/workspace/projects/template-landing/node_modules/@next/swc-win32-arm64-msvc'
+27 silly reify ]
+28 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@next/swc-linux-arm64-musl
+29 silly reify mark deleted [
+29 silly reify   '/workspace/projects/template-landing/node_modules/@next/swc-linux-arm64-musl'
+29 silly reify ]
+30 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@next/swc-linux-arm64-gnu
+31 silly reify mark deleted [
+31 silly reify   '/workspace/projects/template-landing/node_modules/@next/swc-linux-arm64-gnu'
+31 silly reify ]
+32 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@next/swc-darwin-x64
+33 silly reify mark deleted [
+33 silly reify   '/workspace/projects/template-landing/node_modules/@next/swc-darwin-x64'
+33 silly reify ]
+34 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@next/swc-darwin-arm64
+35 silly reify mark deleted [
+35 silly reify   '/workspace/projects/template-landing/node_modules/@next/swc-darwin-arm64'
+35 silly reify ]
+36 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-win32-x64
+37 silly reify mark deleted [
+37 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-win32-x64'
+37 silly reify ]
+38 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-win32-ia32
+39 silly reify mark deleted [
+39 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-win32-ia32'
+39 silly reify ]
+40 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-win32-arm64
+41 silly reify mark deleted [
+41 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-win32-arm64'
+41 silly reify ]
+42 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-wasm32
+43 silly reify mark deleted [
+43 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-wasm32'
+43 silly reify ]
+44 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@emnapi/runtime
+45 silly reify mark deleted [ '/workspace/projects/template-landing/node_modules/@emnapi/runtime' ]
+46 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-linuxmusl-arm64
+47 silly reify mark deleted [
+47 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-linuxmusl-arm64'
+47 silly reify ]
+48 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-linux-s390x
+49 silly reify mark deleted [
+49 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-linux-s390x'
+49 silly reify ]
+50 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-linux-riscv64
+51 silly reify mark deleted [
+51 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-linux-riscv64'
+51 silly reify ]
+52 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-linux-ppc64
+53 silly reify mark deleted [
+53 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-linux-ppc64'
+53 silly reify ]
+54 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-linux-arm64
+55 silly reify mark deleted [
+55 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-linux-arm64'
+55 silly reify ]
+56 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-linux-arm
+57 silly reify mark deleted [
+57 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-linux-arm'
+57 silly reify ]
+58 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-libvips-linuxmusl-arm64
+59 silly reify mark deleted [
+59 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+59 silly reify ]
+60 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-libvips-linux-s390x
+61 silly reify mark deleted [
+61 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-libvips-linux-s390x'
+61 silly reify ]
+62 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-libvips-linux-riscv64
+63 silly reify mark deleted [
+63 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-libvips-linux-riscv64'
+63 silly reify ]
+64 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-libvips-linux-ppc64
+65 silly reify mark deleted [
+65 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-libvips-linux-ppc64'
+65 silly reify ]
+66 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-libvips-linux-arm64
+67 silly reify mark deleted [
+67 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-libvips-linux-arm64'
+67 silly reify ]
+68 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-libvips-linux-arm
+69 silly reify mark deleted [
+69 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-libvips-linux-arm'
+69 silly reify ]
+70 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-libvips-darwin-x64
+71 silly reify mark deleted [
+71 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-libvips-darwin-x64'
+71 silly reify ]
+72 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-libvips-darwin-arm64
+73 silly reify mark deleted [
+73 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-libvips-darwin-arm64'
+73 silly reify ]
+74 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-darwin-x64
+75 silly reify mark deleted [
+75 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-darwin-x64'
+75 silly reify ]
+76 verbose reify failed optional dependency /workspace/projects/template-landing/node_modules/@img/sharp-darwin-arm64
+77 silly reify mark deleted [
+77 silly reify   '/workspace/projects/template-landing/node_modules/@img/sharp-darwin-arm64'
+77 silly reify ]
+78 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 105ms
+79 silly audit report {}
+80 silly ADD
+81 silly ADD
+82 silly ADD
+83 silly ADD
+84 silly ADD
+85 silly ADD
+86 silly ADD
+87 silly ADD
+88 silly ADD
+89 silly ADD
+90 silly ADD
+91 silly ADD
+92 silly ADD
+93 silly ADD
+94 silly ADD
+95 silly ADD
+96 silly ADD
+97 silly ADD
+98 silly ADD
+99 silly ADD
+100 silly ADD
+101 silly ADD
+102 silly ADD
+103 silly ADD
+104 silly ADD
+105 silly ADD
+106 silly ADD
+107 verbose cwd /workspace/projects/template-landing
+108 verbose os Linux 6.12.12+bpo-cloud-amd64
+109 verbose node v20.20.0
+110 verbose npm  v10.8.2
+111 verbose exit 0
+112 info ok
